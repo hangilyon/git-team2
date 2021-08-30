@@ -3,7 +3,8 @@ package jindongsu;
 import java.util.*;
 import Main.StDTO;
 
-public class StudentMg implements Student_inter{
+public class StudentMg implements inter{
+	
 	private String stNum, name, phoneNum, age;
 	private int choice;
 	Scanner scan = new Scanner(System.in);

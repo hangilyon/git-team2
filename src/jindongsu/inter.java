@@ -1,6 +1,6 @@
 package jindongsu;
 
-public interface Student_inter {
+public interface inter {
 	public void enroll();
 	public void allView();
 	public void select();
