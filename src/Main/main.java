@@ -1,6 +1,7 @@
 package Main;
 
 import java.util.Scanner;
+
 import jindongsu.StudentMg;
 
 public class main {
