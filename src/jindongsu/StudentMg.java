@@ -10,24 +10,27 @@ public class StudentMg implements Student_inter{
 	ArrayList<StDTO> arr = new ArrayList<StDTO>();
 	
 	public void enroll() {
-		System.out.print("등록할 학생이름 입력 : ");
-		name = scan.next();
+		loop: while(true) {
 		System.out.print("등록할 학생학번 입력 : ");
 		stNum = scan.next();
+		for(int i = 0; i< arr.size(); i++) {
+			if(arr.get(i).getStNum().equals(stNum)) {
+				System.out.println("학번 중복입니다!!!");
+				break;
+				}
+			if(arr.size()-1 == i || arr.size() == 0) {
+				break loop;
+				}
+			}
+		}
+		
+		System.out.print("등록할 학생이름 입력 : ");
+		name = scan.next();
 		System.out.print("등록할 학생나이 입력 : ");
 		age = scan.next();
 		System.out.print("등록할 학생번호 입력 : ");
 		phoneNum = scan.next();
 		StDTO st = new StDTO();
-		for(int i = 0; i< arr.size(); i++) {
-			if(arr.get(i).getStNum().equals(stNum)) {
-				System.out.println("학번 중복입니다!!!");
-				return;
-			}else if(arr.get(i).getPhoneNum().equals(phoneNum)) {
-				System.out.println("전화번호 중복입니다!!!");
-				return;
-			}
-		}
 		st.setName(name); st.setStNum(stNum); 
 		st.setAge(age); st.setPhoneNum(phoneNum);
 		arr.add(st);

@@ -1,6 +1,6 @@
 package Main;
 
-public class StDTO {
+public class StDTO { 
 	private String stNum;
 	private String name;
 	private String phoneNum;
