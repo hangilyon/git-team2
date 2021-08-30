@@ -1,13 +1,11 @@
 package Jinwon;
-
+import java.util.ArrayList;
+import java.util.Scanner;
 public class Ex01 {
-	import java.util.ArrayList;
-	import java.util.Scanner;
-
-	public class Ex {
+	//public class Ex {
 		public static void main(String[] args) {
-			Scanner input = new Scanner(System.in);
-			ArrayList<StDTO> list = new ArrayList<StDTO>();
+			/*Scanner input = new Scanner(System.in);
+			//ArrayList<StDTO> list = new ArrayList<StDTO>();
 			String name, stNum;
 			int num;
 			//StDTO dto = new StDTO();
@@ -44,5 +42,6 @@ public class Ex01 {
 					System.out.println("프로그램 종료");  return ;
 				}
 			}
-		}
+		}*/
 	}
+}
