@@ -3,7 +3,7 @@ package Main;
 import java.util.Scanner;
 
 import jindongsu.StudentMg;
-
+import jindongsu.inter;
 import Han.han;
 
 public class main {
@@ -22,7 +22,7 @@ public class main {
 				break;
 			case 2 : break;
 			case 3 :
-					StudentMg jin = new StudentMg();
+					inter jin = new StudentMg();
 					jin.disp();	break;
 			case 4 : break;
 			case 5 : break;
