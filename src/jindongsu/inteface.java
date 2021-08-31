@@ -7,5 +7,4 @@ public interface inteface {
 	public void remove();
 	public void amend();
 	public void disp();
-	public String func(String stNum);
 }

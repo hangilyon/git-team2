@@ -3,7 +3,7 @@ package jindongsu;
 import java.util.*;
 import Main.StDTO;
 
-public class StudentMap {
+public class StudentMap implements inteface{
 	Scanner scan = new Scanner(System.in);
 	HashMap<String, StDTO> map = new HashMap<>();
 	private String stNum, name, phoneNum, age;
