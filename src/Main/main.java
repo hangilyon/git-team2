@@ -2,8 +2,7 @@ package Main;
 
 import java.util.Scanner;
 
-import jindongsu.StudentMg;
-import jindongsu.inter;
+import jindongsu.*;
 import Han.han;
 
 public class main {
@@ -22,8 +21,10 @@ public class main {
 				break;
 			case 2 : break;
 			case 3 :
-					inter jin = new StudentMg();
-					jin.disp();	break;
+//					inter jin = new StudentMg();
+//					jin.disp();	break;
+					inteface jin2 = new StudentMap();
+					jin2.disp();
 			case 4 : break;
 			case 5 : break;
 			}
